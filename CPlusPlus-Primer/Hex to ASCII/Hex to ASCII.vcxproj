@@ -11,20 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Sales_item.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Exercise_120.cpp" />
-    <ClCompile Include="Exercise_121.cpp" />
-    <ClCompile Include="Exercise_122.cpp" />
-    <ClCompile Include="Exercise_123.cpp" />
+    <ClCompile Include="Pretty_XML.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1AA06DB0-0CCB-426B-9C11-3600D9EFE77D}</ProjectGuid>
-    <RootNamespace>Chapter1</RootNamespace>
+    <ProjectGuid>{D314AF37-BFC8-47B6-9AD6-B75F5EDF3654}</ProjectGuid>
+    <RootNamespace>HextoASCII</RootNamespace>
+    <ProjectName>XML Formatter</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -50,9 +42,7 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)\..\..\OutputDir\$(Configuration)\</OutDir>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
